@@ -1,0 +1,6 @@
+@Sipru.Backend_HostAddress = http://localhost:5153
+
+GET {{Sipru.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

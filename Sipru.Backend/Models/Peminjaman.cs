@@ -4,24 +4,26 @@ namespace Sipru.Backend.Models
 {
     public class Peminjaman
     {
-        [Key]
         public int Id { get; set; }
 
-        [Required]
-        public string NamaPeminjam { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Nama peminjam wajib diisi")]
+        [StringLength(100)]
+        public string NamaPeminjam { get; set; }
 
-        [Required]
-        public string NamaRuangan { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Nama ruangan wajib diisi")]
+        [StringLength(100)]
+        public string NamaRuangan { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Tanggal mulai wajib diisi")]
         public DateTime TanggalMulai { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Tanggal selesai wajib diisi")]
         public DateTime TanggalSelesai { get; set; }
 
-        public string Keperluan { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Keperluan wajib diisi")]
+        [StringLength(255)]
+        public string Keperluan { get; set; }
 
-        [Required]
         public PeminjamanStatus Status { get; set; } = PeminjamanStatus.Menunggu;
     }
 }

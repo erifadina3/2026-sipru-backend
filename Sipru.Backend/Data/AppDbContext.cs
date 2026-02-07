@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Sipru.Backend.Models;
 
 namespace Sipru.Backend.Data
 {
@@ -9,7 +10,6 @@ namespace Sipru.Backend.Data
         {
         }
 
-        // nanti diisi
-        // public DbSet<Peminjaman> Peminjaman { get; set; }
+        public DbSet<Peminjaman> Peminjaman { get; set; }
     }
 }

@@ -10,6 +10,7 @@
 - Update status peminjaman (Menunggu, Disetujui, Ditolak)
 - Entity Framework Core migration
 - PostgreSQL database integration
+- Swagger API documentation
 
 ## [Unreleased]
 

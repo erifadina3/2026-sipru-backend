@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// SERVICES
+// SERVICES \\
 
 // Controllers
 builder.Services.AddControllers();
@@ -15,13 +15,13 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     )
 );
 
-// Swagger
+// Swagger 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// MIDDLEWARE
+// MIDDLEWARE \\
 
 if (app.Environment.IsDevelopment())
 {

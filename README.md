@@ -71,3 +71,6 @@ http://localhost:5153/swagger
 
 Dikembangkan oleh Nur Legia Erifadina.
 Untuk kebutuhan pembelajaran dan pengembangan sistem peminjaman ruangan kampus
+
+---
+Backend ini dikembangkan sebagai bagian dari tugas PRA-PBL.

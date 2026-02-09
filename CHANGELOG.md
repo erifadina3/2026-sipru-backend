@@ -12,7 +12,6 @@
 - PostgreSQL database integration
 - Swagger API documentation
 
-## [Unreleased]
+### Changed
 
-- Pengembangan fitur frontend
-- Autentikasi & otorisasi (opsional)
+- Improved API documentation using Swagger

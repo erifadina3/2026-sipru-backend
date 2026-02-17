@@ -9,6 +9,8 @@
 ### Notes
 - Stable backend release for SIPRU System
 
+---
+
 ## [v1.0.0] - 2026-02-09
 
 ### Added

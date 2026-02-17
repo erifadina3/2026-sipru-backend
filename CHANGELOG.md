@@ -16,7 +16,7 @@
 ### Added
 
 - CRUD API peminjaman ruangan
-- Endpoint create, read, update, delete peminjaman
+- Endpoint create, read, update, dan delete peminjaman
 - Validasi input data peminjaman
 - Update status peminjaman (Menunggu, Disetujui, Ditolak)
 - Entity Framework Core migration
